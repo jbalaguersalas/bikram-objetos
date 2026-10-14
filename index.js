@@ -36,5 +36,28 @@ const marcaPortatil2 = Portatil["marca"]
 //7.
 const grupos = Concierto ["grupos"]
 //8.
-const RGB = 
+const RGB = [Led.rojo, Led.verde, Led.azul]
 //9.
+Portatil.modelo = "P345"
+//10.
+Concierto.cartelera = "Guns N` Roses"
+//11.
+Concierto.fecha = new Date ();
+//12.
+Impresora.imprimiendo = {
+    nombreArchivo: "apuntes.word",
+    copias: 2,
+    numPaginas: 10
+};
+//13.
+const Noticia ={
+    titular: "El Tiempo",
+    cuerpo: "Ceuta"
+}
+//14.
+
+//15.
+
+//16.
+
+//17.
