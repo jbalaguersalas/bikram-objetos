@@ -76,7 +76,30 @@ aterrizar:function(){
 //16.
 const Paquete = {
     contenido : [
-        {nombre: "libro"}
+        {nombre: "libro"},
+        {pesa: "1kg"},
     ]
 }
 //17.
+const Pais ={
+    numHabiteantes: "8.000.000",
+    contiente: "África",
+    gentilicio: "Marlawense"
+}
+//18.
+const codError = O_Error.codigo;
+//19.
+const integrantes = Grupo.integrantes
+//20.
+const
+//21.
+const
+//22.
+const
+//23.
+
+//24.
+
+//25.
+
+//26.
