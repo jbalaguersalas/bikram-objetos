@@ -52,12 +52,31 @@ Impresora.imprimiendo = {
 //13.
 const Noticia ={
     titular: "El Tiempo",
-    cuerpo: "Ceuta"
+    cuerpo: "Ceuta",
 }
 //14.
-
+const Persona ={
+    nombre: "Jose",
+    apellidos: "Flores",
+    edad:"45",
+}
 //15.
-
+const Avion ={
+    numPasajeros: "134",
+    despegar:function () {
+        console.log("Despegando");
+    },
+volar:function() {
+    console.log("Llegando al destino");
+},
+aterrizar:function(){
+    console.log("aterrizando");
+}
+}
 //16.
-
+const Paquete = {
+    contenido : [
+        {nombre: "libro"}
+    ]
+}
 //17.
