@@ -40,7 +40,7 @@ const RGB = [Led.rojo, Led.verde, Led.azul]
 //9.
 Portatil.modelo = "P345"
 //10.
-Concierto.cartelera = "Guns N` Roses"
+Concierto.cartelera.push("Guns N` Roses");
 //11.
 Concierto.fecha = new Date ();
 //12.
@@ -64,10 +64,10 @@ const Persona ={
 const Avion ={
     numPasajeros: "134",
     despegar:function () {
-        console.log("Despegando");
+        console.log("despegando");
     },
 volar:function() {
-    console.log("Llegando al destino");
+    console.log("llegando al destino");
 },
 aterrizar:function(){
     console.log("aterrizando");
@@ -82,8 +82,8 @@ const Paquete = {
 }
 //17.
 const Pais ={
-    numHabiteantes: "8.000.000",
-    contiente: "África",
+    numHabitantes: "8.000.000",
+    continente: "África",
     gentilicio: "Marlawense"
 }
 //18.
